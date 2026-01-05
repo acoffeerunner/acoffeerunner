@@ -17,6 +17,7 @@ I transform complex data into intelligent, real-world solutions at the intersect
 
 ### **[FOMC Debriefs](https://fomcdebriefs.netlify.app/)**
 Serverless AWS data pipeline processing Federal Reserve FOMC press conference videos to provide economic insights
+
 **Architecture Overview:**
 - **Storage:** DynamoDB (processed meeting data) + S3 (raw files, Lambda layers, Glue scripts)
 - **Compute:** 6 Lambda functions (processing stages) + Glue job (data transformation)
